@@ -110,8 +110,8 @@ Operator    |   Name                    |   Example
 print("Hasil compare 10 > 9 adalah", 10 > 9)
 print("Hasil compare 10 == 9 adalah", 10 == 9 )
 print("Hasil compare 10 < 9 adalah", 10 < 9 )
-print("Hasil compare 10 < 9 adalah", 10 <= 11 )
-print("Hasil compare 10 < 9 adalah", 10 >= 10 )
+print("Hasil compare 10 <= 9 adalah", 10 <= 11 )
+print("Hasil compare 10 <= 9 adalah", 10 >= 10 )
 
 # 7. ARITHMETIC OPERATORS
 
