@@ -159,3 +159,42 @@ y = "world"
 z = x + y
 print(z)
 
+
+# JAWABAN TLX TOKI BAB 6
+
+# B
+n = 0
+total_bebek = 0
+
+n = int(input())
+
+for i in range(n):
+    jumlah_bebek_per_kandang = int(input())
+    total_bebek += jumlah_bebek_per_kandang
+
+print(total_bebek)
+
+# D
+total = 0
+
+while(True):
+    i = input()
+    if (i == "EOF"):
+        break
+    total+= int(i)
+
+print(total)
+
+# E
+n = int(input())
+
+while (n % 2 == 0):
+    n/=2
+    print(f'{n} dibagi 2 = {n}')
+
+print(n)
+if (n==1):
+    print("ya")
+else:
+    print("bukan")
+
