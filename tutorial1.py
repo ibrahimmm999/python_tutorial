@@ -2,6 +2,8 @@
 
 # 1. PRINT -> MENAMPILKAN SESUATU DI TERMINAL
 print("Hello World")
+print("Hello World", end="!")
+print()
 
 
 # 2. VARIABLES -> UNTUK MENYIMPAN SEBUAH VALUE / DATA
@@ -18,7 +20,10 @@ x = y = z = "x, y, dan z akan memiliki nilai yang sama"
 print(nama, umur, kota)
 print(x + "\n"+ y+ "\n"+ z)
 
+# Bentuk Print yang Sering Dipakai :
 print(f'Nilai {nama} adalah {nilai}') # BENTUK PRINT DENGAN FORMAT
+##################################################################
+
 
 # 3. INPUT -> MEMINTA INPUT USER DARI TERMINAL
 input_nama = input("Masukkan nama : ")
@@ -105,6 +110,8 @@ Operator    |   Name                    |   Example
 print("Hasil compare 10 > 9 adalah", 10 > 9)
 print("Hasil compare 10 == 9 adalah", 10 == 9 )
 print("Hasil compare 10 < 9 adalah", 10 < 9 )
+print("Hasil compare 10 < 9 adalah", 10 <= 11 )
+print("Hasil compare 10 < 9 adalah", 10 >= 10 )
 
 # 7. ARITHMETIC OPERATORS
 
